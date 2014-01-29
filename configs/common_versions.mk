@@ -18,7 +18,7 @@ else
             ro.aokp.version=$(TARGET_PRODUCT)_$(AOKP_BRANCH)_nightly_$(DATE)
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.aokp.version=$(TARGET_PRODUCT)_$(AOKP_BRANCH)_unofficial_$(DATE)
+            ro.aokp.version=$(TARGET_PRODUCT)_$(AOKP_BRANCH)_nightly_$(DATE)
     endif
 endif
 
